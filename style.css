@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
@@ -13,12 +14,15 @@ section{
     width: 50%;
     padding-left: 8%;
 }
+.half-width{
+    width: 50%;
+    padding-left: 6%;
+}
+.half-width1 h1{
+    font-size: 40px;
+}
 .half-width img{
     width: 80%;
-}
-.half-width p{
-    text-align: justify;
-    padding-right: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -30,18 +34,21 @@ section{
     font-weight: 700;
     color: white;
     padding: 10px 40px;
-background: #FDC830;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .top-banner{
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+.logo img{
+    padding-top: 160px;
+}
+/* .dream-big{
     background: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    /* margin-top: 50%; */
+} */
 
-}
+
