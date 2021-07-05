@@ -1,0 +1,2 @@
+format on save (vs code a file sajanor jonno use hoy)
+Performance>setting>format on save
