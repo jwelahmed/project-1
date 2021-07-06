@@ -50,5 +50,33 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 } */
+.exprerience-area h1{
+    margin: 0;
+}
+h2{
+    font-size: 35px;
+}
+.exprerience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    /* border-radius: 10px; */
+    box-shadow: 10px 10px 40px gray;
+}
+.exprerience-item p{
+    text-align: justify;
+}
 
+.full-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
 
